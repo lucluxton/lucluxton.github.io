@@ -13,6 +13,35 @@ html {
 body {
   margin: 0;
 }
+/* Avatar and tagline */
+.masthead:after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #eee;
+}
+.masthead {
+  margin-bottom: 84px;
+  text-align: center;
+}
+
+.masthead p {
+  margin-top: 4px;
+  padding-bottom: 28px;
+  color: #999999;
+}
+.masthead p a {
+  color: #555555;
+}
+.masthead p strong {
+  color: #555555;
+  font-weight: normal;
+}
+.masthead p strong a {
+  color: #222;
+}
 article,
 aside,
 details,
