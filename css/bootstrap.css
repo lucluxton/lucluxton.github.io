@@ -13,6 +13,14 @@ html {
 body {
   margin: 0;
 }
+/* Scaffolding
+-------------------------------------------------- */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* Avatar and tagline */
 .masthead:after {
   display: block;
@@ -42,6 +50,30 @@ body {
 .masthead p strong a {
   color: #222;
 }
+
+/* Masthead
+-------------------------------------------------- */
+.90-seconds-logo {
+  display: inline-block;
+  margin: 0 auto;
+}
+.90-seconds-logo img {
+  margin: 0 auto;
+  border-radius: 26px;
+  -webkit-box-shadow: 0 2px 8px rgba(109,51,83,.15);
+     -moz-box-shadow: 0 2px 8px rgba(109,51,83,.15);
+          box-shadow: 0 2px 8px rgba(109,51,83,.15);
+  -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+}
+.90-seconds-logo:hover img {
+  -webkit-box-shadow: 0 2px 15px rgba(109,51,83,.75);
+     -moz-box-shadow: 0 2px 15px rgba(109,51,83,.75);
+          box-shadow: 0 2px 15px rgba(109,51,83,.75);
+}
+
+
 article,
 aside,
 details,
